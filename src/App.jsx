@@ -142,7 +142,7 @@ const DEFAULT_CONTRACTOR_EMAILS = {
 const PRIORITIES = ['Critical', 'High', 'Medium', 'Low']
 const STATUSES = ['Open','In Progress','On Hold','Pending Inspection','Approved','Completed','Closed','Rejected','Rework']
 const DISCIPLINES = ['Civil / Finishing','Housekeeping','Painting','Waterproofing','Façade','Fireproofing','Finishing','Fire Door','EHS','MEP','Logistics','QA/QC']
-const CONTRACTORS = ['ALUFIT','L&T','HEMASRI','MP Waterproofing','JSSL','HÖRMANN','Client/Commercial','All Contractors','Other','TBD']
+const CONTRACTORS = ['ALUFIT','L&T','HEMASRI','MP Waterproofing','JSSL','HÖRMANN','Hitachi','HiTech Security Systems','BlueBerry','OffSpring','Powersol','Client/Commercial','All Contractors','Other','TBD']
 const AREAS = ['B6','B5','B4','B3','B2','B1 / Ramp','GF','1F','2F','3F','4F','5F','6F','7F','8F','9F','10F','11F','12F','13F','14F','15F','16F','17F','18F','19F','20F','21F','22F','23F','24F','25F','26F','27F','28F','29F','30F','31F','32F','33F','34F','35F','36F','37F','38F','39F','40F','41F','Terrace','Façade','CAF Area','Fire Door Area','Site-wide','Other']
 const CM_INSPECTORS = ['CM Civil','CM Finishing','CM Façade','CM QA/QC','CM EHS','CM Lead','CM MEP']
 
