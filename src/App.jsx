@@ -257,7 +257,7 @@ function SettingsPanel({ t, lang, onClose }) {
 
   function handleClearData() {
     if (window.confirm(t.clearConfirm)) {
-      localStorage.removeItem(STORAGE_KEY)
+      localStorage.setItem(STORAGE_KEY, JSON.stringify([]))
       window.location.reload()
     }
   }
@@ -309,7 +309,7 @@ export default function App() {
 
   useEffect(() => {
     const saved = loadSnags(STORAGE_KEY)
-    setSnags(saved || INIT_SNAGS)
+    setSnags(saved !== null ? saved : INIT_SNAGS)
     if (!saved) saveSnags(STORAGE_KEY, INIT_SNAGS)
 
     const unsub = onSnagsUpdated((data) => setSnags(data))
